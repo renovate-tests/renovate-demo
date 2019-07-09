@@ -8,6 +8,11 @@
       "enabled": false
     }
   },
+  "packageRules": [{
+    "managers": ["docker-compose"],
+    "updateTypes": ["digest"],
+    "enabled": false
+  }],
   "assignees": [
     "schuch"
   ]
