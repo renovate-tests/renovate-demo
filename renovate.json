@@ -2,5 +2,10 @@
   "extends": [
     "config:base"
   ],
-  "pinDigests": true
+  "pinDigests": true,
+  "docker-compose": {
+    "digest": {
+      "enabled": false
+    }
+  }
 }
