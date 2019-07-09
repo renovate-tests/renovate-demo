@@ -13,6 +13,9 @@
     "updateTypes": ["digest"],
     "enabled": false
   }],
+  "ignorePaths": [
+    "docker-compose.yml"
+  ],
   "assignees": [
     "schuch"
   ]
