@@ -3,14 +3,9 @@
     "config:base"
   ],
   "pinDigests": true,
-  "docker-compose": {
-    "digest": {
-      "enabled": false
-    }
-  },
   "packageRules": [{
     "managers": ["docker-compose"],
-    "updateTypes": ["digest"],
+    "updateTypes": ["pin", "digest"],
     "enabled": false
   }],
   "assignees": [
